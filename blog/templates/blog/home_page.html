@@ -1,0 +1,29 @@
+{% extends 'blog/base.html' %}
+
+{% block content %}
+<div class="post">
+    <h1>
+        <p style="text-align: center;">
+                Hey there Explorer! What made you come to my doorstep?
+        </p>
+    </h1>
+</div>
+<div class="content">
+    <h2>
+        <p style="text-align: center;">
+                My name is Yashashwee Chakrabarty but you can call me Sir Killsalot (or Kills for short if we become friends)<br>
+                If you're a creep who wants to stalk me or you're just trying contact me the following might help you :<br>
+                <span class="fa fa-facebook"></span><a href="https://www.facebook.com/yashashwee.chakrabarty"> My facebook page</a><br>
+                <span class="fa fa-linkedin"></span><a href="https://www.linkedin.com/in/yashashwee-chakrabarty-60a63416b/"> My linkedin profile</a><br>
+                or you can email me at yashashwee99@gmail.com<br>
+        </p>
+    </h2>
+</div>
+<div class="content">
+    <h3>
+            <p style="text-align: center;">
+                And if you're here for the blogs <a href="{% url 'post_list' %}">Click here</a>
+            </p>
+    </h3>
+</div>
+{% endblock %}
